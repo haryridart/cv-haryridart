@@ -4,7 +4,6 @@ import { Navbar } from "@/components/navbar"
 import { ExperienceSection } from "@/components/experience-section"
 import { ProjectsSection } from "@/components/projects-section"
 import { SkillsSection } from "@/components/skills-section"
-import { AboutSection } from "@/components/about-section"
 import { FiArrowDown, FiGithub, FiLinkedin, FiMail } from "react-icons/fi"
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
@@ -115,10 +114,6 @@ export default function Home() {
 
       {/* Skills Section */}
       <SkillsSection />
-
-      {/* About Section */}
-      <AboutSection />
-
 
       {/* Footer */}
       <footer className="py-8 bg-dark-200 text-white">
